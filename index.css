@@ -263,16 +263,25 @@ a {
   /* width: 207px; */
 }
 
+.sp{
+  height: 120px;
+  background-color: #141414;
+}
+
 .line2{
-  margin-top: 128px;
-  /* padding-top: 5px; */
+  /* margin-top: 128px; */
+  
+  background-color: #0c1420;
+  margin-top: 0px !important;
   height: 2px;
   color: white;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 
 .foot{
-  margin-bottom: 40px;
+  padding-bottom: 50px;
 }
 
 /* .footer a:hover {
