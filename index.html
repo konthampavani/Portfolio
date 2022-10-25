@@ -29,7 +29,9 @@
     <title>Pavani</title>
 </head>
 
-<body>
+<body onload="loadfun()">
+
+    <div id="loader"></div>
 
 
     <section class="et-hero-tabs" id="tab">
@@ -76,7 +78,7 @@
                     </div>
                   </section>
               </div>
-              <div class="col-sm text-center">
+              <div class="col-sm text-center sph">
                 <span class="Sphere text-end"></span>
               </div>
             </div>
@@ -255,14 +257,13 @@
                                 <br>
                             </div>
                             <div class="para">
-                                <p>Limiter is a real time project that displays the parking lot of the 
-                                institute campus retrieving data with the help of online server. The application 
-                                helps the user get a hassle free parking experience. 
-                                It shows the present parking state to the user, notes and 
-                                notifies the driver through email once their allotted time is
-                                done. User can register their vehicles for future use. 
-                                The admin can add new slots, edit FAQ and also set the
-                                maximum time for a vehicle type.
+                                <p>A simple front-end website which assists the user to plan
+                                    their trip.
+                                    Trip Up helps the user to book their flights, hotels, cabs
+                                    The website also allows the user to see the the weather
+                                    forecast to plan efficiently
+                                    Trip Up also has a column where the user can find inspirations for
+                                    the future trips
                                 </p>
                             </div>
                         </div>
@@ -322,15 +323,10 @@
                                 <br>
                             </div>
                             <div class="para">
-                              <p>Limiter is a real time project that displays the parking lot of the 
-                                institute campus retrieving data with the help of online server. The application 
-                                helps the user get a hassle free parking experience. 
-                                It shows the present parking state to the user, notes and 
-                                notifies the driver through email once their allotted time is
-                                done. User can register their vehicles for future use.
-                                 The admin can add new slots, edit FAQ and also set the
-                                maximum time for a vehicle type.
-                                </p>
+                              <p>This is just a prototype website that will help the colleges find funding for their fests without hassle.
+                                This website basically connects the college administrators to the companies that want to invest in the fest.
+                                This website will act as a medium between colleges and companies to make the process of finding funds easier.
+                              </p>
                             </div>
                         </div>
                       </section>
@@ -381,14 +377,10 @@
                             <br>
                         </div>
                         <div class="para">
-                          <p>Limiter is a real time project that displays the parking lot of the 
-                            institute campus retrieving data with the help of online server. The application 
-                            helps the user get a hassle free parking experience. 
-                            It shows the present parking state to the user, notes and 
-                            notifies the driver through email once their allotted time is
-                            done. User can register their vehicles for future use.
-                             The admin can add new slots, edit FAQ and also set the
-                            maximum time for a vehicle type.
+                          <p>This is just a prototype website that will help the colleges find funding for their fests without hassle.
+                            This website basically connects the college administrators to the companies that want to invest in the fest.
+                            This website will act as a medium between colleges and companies to make the process of finding funds easier.
+                          
                             </p>
                         </div>
                     </div>
@@ -414,14 +406,12 @@
                                 <br>
                             </div>
                             <div class="para">
-                                <p>Limiter is a real time project that displays the parking lot of the 
-                                institute campus retrieving data with the help of online server. The application 
-                                helps the user get a hassle free parking experience. 
-                                It shows the present parking state to the user, notes and 
-                                notifies the driver through email once their allotted time is
-                                done. User can register their vehicles for future use. 
-                                The admin can add new slots, edit FAQ and also set the
-                                maximum time for a vehicle type.
+                                <p> Bandhan is a matrimonal website. 
+                                    There are a lot of filters included in it that will help the user find the person of their choice easily. 
+                                    User has to fill a registration form to get themselves registered in 
+                                    the website this data will be displayed on the user's profile and bio and this is editable.
+                                    User gets suggestions based on his home town, current city and choices to help finding their person easily.
+                            
                                 </p>
                             </div>
                         </div>
@@ -546,6 +536,14 @@
         });
     </script>
     <!-- text end -->
+
+    <script>
+        var load = document.getElementById("loader");
+
+        function loadfun(){
+            load.style.display='none';
+        }
+    </script>
 
 
 </body>
